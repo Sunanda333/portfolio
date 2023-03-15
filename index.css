@@ -412,7 +412,7 @@ body:not(.user-is-tabbing) a:focus {
 .header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('./images/head.webp');
-    height: calc(10px + 120vh);
+    height: 130vh;
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
