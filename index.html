@@ -45,13 +45,7 @@
             <a href="#experience" class="nav__link">Experience</a>
           </li>
           <li class="nav__item">
-            <a href="#majorprojects" class="nav__link">Major Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#officialprojects" class="nav__link">Official Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#minorprojects" class="nav__link">Minor Projects</a>
+            <a href="#majorprojects" class="nav__link">Projects</a>
           </li>
           <li class="nav__item">
             <a href="#skills" class="nav__link">Skills</a>
@@ -70,11 +64,11 @@
         <div class="about__text">
           <!-- Replace the below paragraph with info about yourself -->
           <p>
-            Currently I am a Master's student about to graduate in May 2023. Prior to this, I have worked as a Software Engineer. As part of Core Banking team in HSBC, I have led the team’s first endeavour of migrating legacy code to cloud, architected modernization using Java framework and developed/deployed microservices.
-            Building RESTful APIs, managing software lifecycle, writing automated unit tests, scoping and designing products, I have done it all.
+            A Master's student about to graduate in May 2023. I have over two years of professional experience as a Software Engineer at HSBC. I have led my team’s first endeavour of migrating legacy code to cloud, architected modernization using Java framework and developed/deployed microservices.
           </p>
           <!-- Provide a link to your resume -->
           <a href="#contact" class="btn btn--pink">Get in touch</a>
+          <a href="#contact" class="btn btn--pink">Resume</a>
         </div>
 
         <div class="about__photo-container">
@@ -167,6 +161,20 @@
 
     <section class="majorprojects" id="majorprojects">
       <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#majorprojects" class="nav__link">Major Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#officialprojects" class="nav__link">Official Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#minorprojects" class="nav__link">Minor Projects</a>
+            </li>
+          </ul>
+        </nav>
+        </br>
         <h2>Major Projects</h2>
         <div class="work__boxes">
 
@@ -429,7 +437,7 @@
     <section class="skills" id="skills">
       <div class="row">
         <h2>Skills</h2>
-        <div class="square-container">
+        <div class="square-container" id="grid">
           <!-- Add logos of the education or companies you'have worked with. -->
           <div class="square">
             <div class="content">
@@ -538,7 +546,6 @@
               <img src="./images/html.png" class="client__logo" alt="Company 1" />
             </div>
           </div>
-
         </div>
       </div>
     </section>
